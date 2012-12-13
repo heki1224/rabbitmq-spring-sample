@@ -1,0 +1,16 @@
+<configuration>
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<Target>System.out</Target>
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<pattern>%date{yyyy-MM-dd HH:mm:ss} %level %logger{0} - %msg \(%file:%line\)%n</pattern>
+		</layout>
+	</appender>
+
+	<root>
+		<level value="INFO" />
+		<appender-ref ref="STDOUT" />
+	</root>
+	<logger name="com.heki1224.sample">
+		<level value="INFO" />
+	</logger>
+</configuration>
