@@ -19,3 +19,7 @@ amqp-client 3.0.4
 jackson-jaxrs  1.9.11  
 slf4j  1.7.2  
 logback 1.0.7  
+
+参考
+----------------
+http://heki1224.hatenablog.com/entry/2012/12/13/183125
