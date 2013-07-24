@@ -3,9 +3,9 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rabbit="http://www.springframework.org/schema/rabbit"
 	xsi:schemaLocation="
 		http://www.springframework.org/schema/beans
-		http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+		http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
 		http://www.springframework.org/schema/rabbit
-		http://www.springframework.org/schema/rabbit/spring-rabbit-1.1.xsd">
+		http://www.springframework.org/schema/rabbit/spring-rabbit-1.1.xsd ">
 
 	<rabbit:connection-factory id="connectionFactory"
 		addresses="${rabbitmq.addresses}" channel-cache-size="${rabbitmq.channel-cache-size}" />
@@ -17,7 +17,7 @@
 	<rabbit:queue name="sampleQueue" />
 
 	<bean name="messageConverter"
-		class="org.springframework.amqp.support.converter.JsonMessageConverter" />
+		class="org.springframework.amqp.support.converter.Jackson2JsonMessageConverter" />
 
 	<rabbit:admin connection-factory="connectionFactory" />
 

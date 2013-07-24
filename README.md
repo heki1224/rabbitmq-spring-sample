@@ -8,17 +8,17 @@ eclipseプロジェクトとしてご利用ください。
   
 動作環境
 ------------
-RabbitMQ 3.0.1 
+RabbitMQ 3.1.3 
   
 依存ライブラリ
 ----------------
-spring-core 3.2.2  
-spring-amqp 1.1.4  
-spring-rabbit 1.1.4  
-amqp-client 3.0.4  
-jackson-jaxrs  1.9.11  
-slf4j  1.7.2  
-logback 1.0.7  
+spring-core 3.2.3  
+spring-amqp 1.2.0  
+spring-rabbit 1.2.0  
+amqp-client 3.1.3  
+jackson-jaxrs  2.2.2  
+slf4j  1.7.5  
+logback 1.0.13  
 
 参考
 ----------------
