@@ -23,3 +23,7 @@ logback 1.0.13
 参考
 ----------------
 http://heki1224.hatenablog.com/entry/2012/12/13/183125
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/heki1224/rabbitmq-spring-sample/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
